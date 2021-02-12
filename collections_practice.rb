@@ -35,7 +35,12 @@ def sum_array(array)
 end  
 
 def add_s(array)
-  array.map {|a| "#{a}s"}
+  array.map do |a|
+    if a[1] == "feet"
+      "#{a}"
+    else 
+      "#{a}s"
+  end
 end 
 
       
