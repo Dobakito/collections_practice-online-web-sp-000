@@ -40,6 +40,7 @@ def add_s(array)
       "#{a}"
     else 
       "#{a}s"
+    end
   end
 end 
 
