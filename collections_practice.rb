@@ -36,6 +36,8 @@ end
 
 def add_s(array)
   array.map {|a| puts "#{a}s"}
-end    
+  array
+end 
+
       
   
