@@ -35,7 +35,8 @@ def sum_array(array)
 end  
 
 def add_s(array)
-  
+  array.each_with_index.reject {|a, i| i == 1}.each do |a ,i|
+    puts "#{a}s"
 end    
       
   
