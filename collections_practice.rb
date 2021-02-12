@@ -36,7 +36,7 @@ end
 
 def add_s(array)
   array.map do |a|
-    if a[1] == "feet"
+    if a == "feet"
       "#{a}"
     else 
       "#{a}s"
